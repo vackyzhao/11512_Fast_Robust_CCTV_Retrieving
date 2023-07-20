@@ -23,14 +23,14 @@
     检测到的事件将通过MQTT协议上传至您配置的云端服务器，您可以在云端进行数据分析和远程监控。
 
     ``` 
-#按照如下填写buildgn文件来编译 
-import("//build/lite/config/component/lite_component.gni")
-lite_component("app") {
-    features = [
-           "hi3861:iot_mqtt",
-    ]
-}
-``` 
+    #按照如下填写buildgn文件来编译 
+    import("//build/lite/config/component/lite_component.gni")
+    lite_component("app") {
+        features = [
+               "hi3861:iot_mqtt",
+        ]
+    }
+    ``` 
 
 ## 注意事项
 
