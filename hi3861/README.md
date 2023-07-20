@@ -1,3 +1,12 @@
+#按照如下填写buildgn文件来编译 
+#import("//build/lite/config/component/lite_component.gni")
+#lite_component("app") {
+#    features = [
+#            "hi3861:iot_mqtt",
+#    ]
+#}
+
+
 3861代码 - 事件检测与上传
 简介
 
