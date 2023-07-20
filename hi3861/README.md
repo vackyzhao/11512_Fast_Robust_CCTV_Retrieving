@@ -1,12 +1,4 @@
-``` 
-#按照如下填写buildgn文件来编译 
-import("//build/lite/config/component/lite_component.gni")
-lite_component("app") {
-    features = [
-           "hi3861:iot_mqtt",
-    ]
-}
-``` 
+
 
 # 3861代码 - 事件检测与上传
 ## 简介
@@ -29,6 +21,16 @@ lite_component("app") {
     监控数据将实时在OLED显示屏上显示，用户可以直接观察检测结果。
 
     检测到的事件将通过MQTT协议上传至您配置的云端服务器，您可以在云端进行数据分析和远程监控。
+
+    ``` 
+#按照如下填写buildgn文件来编译 
+import("//build/lite/config/component/lite_component.gni")
+lite_component("app") {
+    features = [
+           "hi3861:iot_mqtt",
+    ]
+}
+``` 
 
 ## 注意事项
 
